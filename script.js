@@ -11,9 +11,9 @@ body.setAttribute('data-theme', currentTheme);
 
 // Set initial logo based on theme
 if (currentTheme === 'light') {
-    logo.src = '/src/glogoblack.png';
+    logo.src = 'src/glogoblack.png';
 } else {
-    logo.src = '/src/g logo white.png';
+    logo.src = 'src/g logo white.png';
 }
 
 themeToggle.addEventListener('click', () => {
@@ -25,9 +25,9 @@ themeToggle.addEventListener('click', () => {
 
     // Change logo based on theme
     if (newTheme === 'light') {
-        logo.src = '/src/glogoblack.png';
+        logo.src = 'src/glogoblack.png';
     } else {
-        logo.src = '/src/g logo white.png';
+        logo.src = 'src/g logo white.png';
     }
 });
 
